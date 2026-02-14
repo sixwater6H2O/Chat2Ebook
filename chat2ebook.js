@@ -2,6 +2,7 @@ import { saveSettingsDebounced } from "../../../../script.js";
 import { extension_settings } from "../../../extensions.js";
 import { getPresetManager } from "../../../preset-manager.js";
 
+
 const extensionName = "chat2ebook";
 
 // === CDN 配置 ===
