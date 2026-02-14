@@ -1,0 +1,85 @@
+/* 基础面板样式 */
+.c2e-panel { padding: 5px; }
+
+/* 栅格布局 */
+.c2e-grid { 
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    gap: 10px; 
+    margin-bottom: 10px; 
+}
+
+/* 输入框标签 */
+.c2e-input-group label { 
+    display: block; 
+    font-size: 0.8em; 
+    margin-bottom: 3px; 
+    opacity: 0.8; 
+}
+
+/* 竖排居中选项组 (新需求) */
+.c2e-vertical-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* 整体居中 */
+    justify-content: center;
+    gap: 8px;
+    margin: 15px 0;
+}
+
+/* 选项 Label 样式 */
+.c2e-checkbox-label {
+    display: flex;
+    align-items: center;
+    gap: 8px; /* 图标和文字的间距 */
+    font-size: 0.9em;
+    cursor: pointer;
+    width: 140px; /* 固定宽度确保左对齐整齐 */
+    text-align: left;
+}
+
+/* 分割线 (新需求) */
+.c2e-divider {
+    border: 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+    margin: 15px 0 10px 0;
+}
+
+/* 分隔标题 */
+.c2e-section-title { 
+    font-size: 0.85em; 
+    opacity: 0.7; 
+    margin: 10px 0 5px 0; 
+    text-transform: uppercase; 
+    letter-spacing: 1px; 
+    text-align: center;
+}
+
+/* 按钮组 */
+.c2e-btn-group { 
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    gap: 8px; 
+}
+
+/* 按钮通用样式 */
+.c2e-btn { 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    padding: 8px; 
+    border-radius: 4px; 
+    cursor: pointer; 
+    font-weight: bold; 
+    font-size: 0.9em; 
+    text-align: center; 
+    color: white; 
+    border: 1px solid rgba(255,255,255,0.1); 
+    transition: filter 0.2s;
+}
+.c2e-btn:hover { filter: brightness(1.15); }
+
+/* 颜色风格 */
+.btn-primary { background-color: #900; }  /* EPUB/HTML */
+.btn-office { background-color: #2b579a; } /* DOCX */
+.btn-txt { background-color: #555; }       /* TXT */

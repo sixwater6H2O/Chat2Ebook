@@ -1,0 +1,11 @@
+{
+    "display_name": "所见即所得：Chat2Ebook",
+    "loading_order": 9999,
+    "requires": [],
+    "optional": [],
+    "js": "chat2ebook.js",
+    "css": "style.css",
+    "author": "六点儿水",
+    "version": "0.0.1",
+    "description": "所见即所得导出：支持 EPUB/HTML/Word/TXT 格式，保留正则和渲染效果。"
+}
