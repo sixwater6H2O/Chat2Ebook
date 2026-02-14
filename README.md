@@ -24,7 +24,11 @@
     ```
     https://github.com/sixwater6h2o/Chat2Ebook
     ```
-5.  点击 **Install**。安装完成后刷新页面即可。
+    或
+    ```
+    https://gitee.com/sixwater_admin/Chat2Ebook
+    ```
+6.  点击 **Install**。安装完成后刷新页面即可。
 
 ## 📖 使用指南
 
@@ -50,4 +54,5 @@
 * **License**: MIT
 
 ---
+
 *Enjoy your stories!*
